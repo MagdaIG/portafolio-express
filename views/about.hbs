@@ -3,33 +3,36 @@
         <h1>Acerca de mí</h1>
         <p>Conoce más sobre mi experiencia y habilidades</p>
     </div>
-    
+
     <div class="about-section">
         <h2>Hola, soy {{name}}</h2>
         <p>{{bio}}</p>
-        
+
         <h3>Experiencia</h3>
         <p>Tengo {{experience}} de experiencia desarrollando aplicaciones web modernas y escalables. Me apasiona aprender nuevas tecnologías y enfrentar desafíos técnicos complejos.</p>
-        
+
         <h3>Mis Habilidades</h3>
         <div class="skills-grid">
             {{#each skills}}
             <div class="skill-item">
-                <i class="fas fa-code" style="color: #8B5A8C; margin-bottom: 0.5rem;"></i>
+                <i class="fas fa-code" style="color: #667eea; margin-bottom: 0.5rem;"></i>
                 <p>{{this}}</p>
             </div>
             {{/each}}
         </div>
-        
+
         <h3>Mi Enfoque</h3>
         <p>Creo en el desarrollo de software que no solo funcione bien, sino que también sea mantenible, escalable y centrado en el usuario. Siempre busco las mejores prácticas y me mantengo actualizada con las últimas tendencias en tecnología.</p>
-        
+
         <div style="text-align: center; margin-top: 2rem;">
-            <a href="/projects" style="color: #8B5A8C; text-decoration: none; font-weight: 500; padding: 0.8rem 2rem; border: 2px solid #8B5A8C; border-radius: 25px; transition: all 0.3s ease; margin-right: 1rem;">
+            <a href="/projects" style="color: #667eea; text-decoration: none; font-weight: 500; padding: 0.8rem 2rem; border: 2px solid #667eea; border-radius: 25px; transition: all 0.3s ease; margin-right: 1rem;">
                 Ver Mis Proyectos
             </a>
-            <a href="mailto:magdalena@example.com" style="color: white; text-decoration: none; font-weight: 500; padding: 0.8rem 2rem; background: #8B5A8C; border-radius: 25px; transition: all 0.3s ease;">
-                Contactarme
+            <a href="mailto:magda.inalaf@gmail.com" style="color: white; text-decoration: none; font-weight: 500; padding: 0.8rem 2rem; background: #667eea; border-radius: 25px; transition: all 0.3s ease; margin-right: 1rem;">
+                <i class="fas fa-envelope"></i> Contactarme
+            </a>
+            <a href="https://inalaf.ca/" style="color: #667eea; text-decoration: none; font-weight: 500; padding: 0.8rem 2rem; border: 2px solid #667eea; border-radius: 25px; transition: all 0.3s ease;">
+                <i class="fas fa-globe"></i> Mi Sitio Web
             </a>
         </div>
     </div>
