@@ -34,7 +34,7 @@ const projects = [
         description: 'Versión mejorada del sistema de inventario con validaciones avanzadas, funciones personalizadas y documentación completa. Aplicando mejores prácticas de desarrollo y arquitectura de bases de datos.',
         technologies: ['PostgreSQL', 'PL/pgSQL', 'Validaciones', 'Git Submodule'],
         image: '/images/project1.jpg',
-        github: 'https://github.com/MagdaIG/inventario-v2',
+        github: 'https://github.com/MagdaIG/proyecto-bd-relacional',
         demo: 'https://magdaig.github.io/portafoliojs/bd-inventario-v2.html'
     },
     {
@@ -43,8 +43,8 @@ const projects = [
         description: 'Sistema completo de gestión de tareas con interfaz tipo Kanban. Permite crear, editar, mover entre columnas y eliminar tareas de forma interactiva con drag & drop.',
         technologies: ['JavaScript', 'Supabase', 'HTML5', 'CSS3'],
         image: '/images/project2.jpg',
-        github: 'https://github.com/MagdaIG/kanban-tasks',
-        demo: 'https://magdaig.github.io/kanban-tasks'
+        github: 'https://github.com/MagdaIG/Gestion-de-tareas-con-javascript',
+        demo: 'https://magdaig.github.io/Gestion-de-tareas-con-javascript/'
     },
     {
         id: 3,
@@ -52,7 +52,7 @@ const projects = [
         description: 'Tienda online de joyería con catálogo dinámico, carrito de compras y sistema de filtros por categorías. Interfaz moderna y funcional con API externa.',
         technologies: ['JavaScript', 'API REST', 'LocalStorage', 'Responsive Design'],
         image: '/images/project3.jpg',
-        github: 'https://github.com/MagdaIG/cute-shop',
+        github: 'https://github.com/MagdaIG/productos-e-commerce.js',
         demo: 'https://magdaig.github.io/productos-e-commerce.js/'
     }
 ];

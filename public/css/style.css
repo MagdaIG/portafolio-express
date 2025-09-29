@@ -14,7 +14,7 @@ body {
 
 /* Header y Navegación */
 .header {
-    background: linear-gradient(135deg, #8B5A8C 0%, #C77DFF 100%);
+    background: linear-gradient(135deg, #E0BBE4 0%, #FDFD96 50%, #ADD8E6 100%);
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     position: sticky;
     top: 0;
@@ -57,7 +57,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-    color: #FFB6C1;
+    color: #8B5A8C;
 }
 
 .nav-link::after {
@@ -67,7 +67,7 @@ body {
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #FFB6C1;
+    background-color: #8B5A8C;
     transition: width 0.3s ease;
 }
 
@@ -104,8 +104,8 @@ main {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #8B5A8C 0%, #C77DFF 100%);
-    color: white;
+    background: linear-gradient(135deg, #E0BBE4 0%, #FDFD96 50%, #ADD8E6 100%);
+    color: #333;
     padding: 4rem 0;
     text-align: center;
     margin-bottom: 3rem;
@@ -148,11 +148,11 @@ main {
 .project-image {
     width: 100%;
     height: 200px;
-    background: linear-gradient(45deg, #F8F0FF, #E6E6FA);
+    background: linear-gradient(45deg, #E0BBE4, #FDFD96, #ADD8E6);
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #8B5A8C;
+    color: #333;
     font-size: 1.1rem;
 }
 
@@ -180,8 +180,8 @@ main {
 }
 
 .tech-tag {
-    background: #8B5A8C;
-    color: white;
+    background: #E0BBE4;
+    color: #333;
     padding: 0.3rem 0.8rem;
     border-radius: 20px;
     font-size: 0.8rem;
@@ -201,7 +201,7 @@ main {
 }
 
 .project-link:hover {
-    color: #C77DFF;
+    color: #E0BBE4;
 }
 
 /* About Section */
@@ -233,7 +233,7 @@ main {
 }
 
 .skill-item {
-    background: #F8F0FF;
+    background: linear-gradient(135deg, #E0BBE4, #FDFD96);
     padding: 1rem;
     border-radius: 8px;
     text-align: center;
@@ -297,7 +297,7 @@ main {
 .footer-section h3,
 .footer-section h4 {
     margin-bottom: 1rem;
-    color: #FFB6C1;
+    color: #E0BBE4;
 }
 
 .footer-section ul {
@@ -315,7 +315,7 @@ main {
 }
 
 .footer-section a:hover {
-    color: #FFB6C1;
+    color: #E0BBE4;
 }
 
 .social-links {
@@ -327,8 +327,8 @@ main {
     display: inline-block;
     width: 40px;
     height: 40px;
-    background: #8B5A8C;
-    color: white;
+    background: #E0BBE4;
+    color: #333;
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
@@ -336,7 +336,7 @@ main {
 }
 
 .social-links a:hover {
-    background: #FFB6C1;
+    background: #FDFD96;
     color: #333;
 }
 
