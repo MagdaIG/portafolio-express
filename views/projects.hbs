@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="hero">
+        <h1>Mis Proyectos</h1>
+        <p>Una colección de mis trabajos más recientes y destacados</p>
+    </div>
+    
+    <section class="projects-section">
+        <div class="projects-grid">
+            {{#each projects}}
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-laptop-code" style="font-size: 3rem; color: #8B5A8C;"></i>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">{{title}}</h3>
+                    <p class="project-description">{{description}}</p>
+                    <div class="technologies">
+                        {{#each technologies}}
+                        <span class="tech-tag">{{this}}</span>
+                        {{/each}}
+                    </div>
+                    <div class="project-links">
+                        <a href="{{github}}" class="project-link" target="_blank" rel="noopener">
+                            <i class="fab fa-github"></i> Ver Código
+                        </a>
+                        <a href="{{demo}}" class="project-link" target="_blank" rel="noopener">
+                            <i class="fas fa-external-link-alt"></i> Ver Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </section>
+    
+    <div style="text-align: center; margin: 3rem 0;">
+        <h3 style="color: #333; margin-bottom: 1rem;">¿Interesado en trabajar juntos?</h3>
+        <p style="color: #666; margin-bottom: 2rem;">Estoy siempre abierta a nuevas oportunidades y proyectos emocionantes.</p>
+        <a href="mailto:magdalena@example.com" style="color: white; text-decoration: none; font-weight: 500; padding: 1rem 2rem; background: #8B5A8C; border-radius: 25px; transition: all 0.3s ease;">
+            <i class="fas fa-envelope"></i> Contactarme
+        </a>
+    </div>
+</div>
